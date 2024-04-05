@@ -19,6 +19,7 @@ body {
   font-weight: 700;
   font-size: 20px;
   text-transform: uppercase;
+  padding-top: 10px
 }
 
 .semi-bold {
@@ -231,4 +232,12 @@ body {
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
+}
+
+.rect{
+  /* transform: scale(0.5); */
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  /* align-items: flex-start; */
 }
